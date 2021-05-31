@@ -1,0 +1,153 @@
+body{
+  font-family: "montserrat-thin";
+}
+#title{
+  background-color: #ff4c68;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+}
+h2{
+  font-family: "montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight:100;
+}
+h3{
+  font-family: "montserrat";
+  font-size: 1rem;
+  font-weight: 100;
+}
+p{
+  font-weight:normal;
+  color: grey;
+}
+/* navigation bar*/
+.nav-brand{
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  font-family: "ubuntu";
+  text-decoration: none;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "montserrat-light"
+}
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* title image */
+.title-image{
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%
+}
+/* features */
+#features{
+  padding:  7% 15%;
+  background-color:#fff;
+  position: relative;
+
+}
+.feature-div{
+  text-align: center;
+}
+.feature-head{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+.feature-text{
+  color: #8f8f8f;
+  width: 70%;
+  margin: 0 auto;
+  font-weight: lighter;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testimonial section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+   color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* press section */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing {
+  padding: 6rem;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+/* call to action section */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 5% 20%;
+}
+.cta-text{
+  font-family: "Montserrat";
+  color: #fff;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 50px;
+}
+.footer-icon {
+  margin: 1%;
+}
+
+@media (max-width:990px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
